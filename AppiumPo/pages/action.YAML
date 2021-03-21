@@ -1,0 +1,20 @@
+- locator: //*[@text="必填"]
+  action: find_send_name
+  massage: name17
+
+- locator: com.tencent.wework:id/av2
+  action: find_id_click
+
+- locator: //*[@text='男']
+  action: find_xpath_click
+
+- locator: //*[@text="手机号"]
+  action: find_send_phone
+  massage: 11111111127
+
+
+- locator: //*[@text="保存"]
+  action: find_xpath_click_save
+
+
+
