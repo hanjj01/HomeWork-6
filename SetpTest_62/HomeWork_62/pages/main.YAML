@@ -7,3 +7,5 @@ goto_addresslist_page:
   - locator: //*[@text='通讯录']
     action: find_click
     by: xpath
+
+
